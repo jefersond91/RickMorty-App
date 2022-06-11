@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .3);
+} */
+
+/* .modal{
+    background-image: image("../");
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+    position: relative;
+    z-index: 10;
+} */
+
+/* .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+*/ */ .App {
+    text-align: center;
+    padding: 0px;
+}
+
+.header{
+    background: linear-gradient(90deg,#4a5e554b,#3c535e7e),url(../src/assets/rickmorty03.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+body {
+    background: #00f260; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00f260, #0575e6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00f260, #0575e6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.resident-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: #fff;
+}
+
+.resident-list li {
+    padding: 10px;
+    width: 25%;
+}
+
+.resident-list li .card {
+    padding: 10px;
+    background-color: #062226;
+    border: 1px solid silver;
+    border-radius: 6px;
+    box-shadow: 1px 1px 8px #ccfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.searchInput{
+    margin-top: 0px;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchInput input{
+    width: 300px;
+}
+
+.searchInput button{
+    cursor: pointer;
+    background-color: #00F260;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    
+}
+
+
+.resident-list li .card .status {
+    width: 100%;
+    border-radius: 0.25rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px;
+}
+
+.green {
+    background: #458a55;
+    font-size: 30px;
+}
+
+.red {
+    background: #c22d2d;
+    font-size: 30px;
+}
+
+.gray {
+    background: #292929;
+    font-size: 30px;
+}
+
+.resident-list li .card h4{
+    text-shadow: 1px 3px 10px rgb(253, 252, 252);
+}
+
+.resident-list li .card img {
+    width: 70%;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.generalInfo {
+    padding: 20px;
+    text-align: center;
+}
+
+.specificInfo{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.2rem;
+}
+
+.paginated {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.paginated-button{
+    width: 60px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+}
